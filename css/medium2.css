@@ -1,0 +1,599 @@
+.inner{
+    width: 100%;
+    overflow: hidden;
+}
+
+.rain_bow{
+    height:70vw;
+    width: 100%;
+    
+    }
+    
+    .rain_bow .inner{
+        gap: 15px;
+    }
+    
+    .rain_bow h3{
+      font-size: 2rem;
+      margin: 0 auto;
+      margin-top: 18%;
+      width: 50%;
+      text-align: center;
+    }
+    .rain_bow h3 span{
+        font-size: 3rem;
+    }
+    
+    .taste{
+        font-size: 2rem;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    
+    
+    .many{
+     width: 30%;
+     left: 150px;
+     top: 100px;
+    }
+    
+
+    .second{
+        height: 70vw;
+    }
+.product{
+ padding-top: 50px;
+}
+.product2{
+    animation: none;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+    .gap{
+        gap: 40px;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 60px;
+    }
+    
+    .gap div{ 
+        max-width: 200px;
+       height: 200px;
+       line-height:200px;
+       font-size: 2rem;
+      flex-grow: 5;
+    }
+    
+    .gap div:first-child:hover{
+        background: url("../images/und.1.jpeg") no-repeat contain;
+        transition: all .5s;
+        color:#000;
+    }
+
+    .gap div::after{
+        display: none;
+    }
+    
+    .blue{
+        height: 70vw;
+    }
+    .swiper{
+        height: 450px;
+        padding-top: 0;
+        top:120px;
+        left: 1%;
+    }
+    .blue > h3{
+    font-size: 3rem;
+    }
+    
+    .inbl{
+     
+    font-size: 3rem;
+    
+    }
+    
+    .dry{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
+        width: 45%;
+    }
+    
+    .dry h3{
+        font-size: 2.5rem;
+    }
+    
+    .dry span{
+        font-size: 1.4rem;
+    }
+    
+    .aun{
+        flex-direction: column;   
+        gap: 20px;
+    }
+    
+    .btn{
+        gap: 50px;
+        margin-top: 0px;
+    }
+    
+    .btn span{
+        font-size: 1.3rem;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50px;
+    
+    }
+    
+    
+
+
+    
+    address div{
+        justify-content: space-between;
+      gap: 20px;
+    }
+    
+    address span{
+        color: #E9EFF2;
+    
+    }
+    
+    .black{
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .black p{
+        height: 200px;
+        line-height: 200px;
+        display: inline-block;
+    }
+    
+    .black p img{
+    opacity: .8;
+    }
+    
+    .copy{
+        font-size: .9rem;
+        color:gray;
+        text-align: center;
+        font-weight: 200;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #000;
+    }
+    
+    
+    
+    footer ul{
+       color: gray;
+    }
+    
+    .footer_img{
+        opacity: .8;
+    }
+    
+    .nnn{
+        width: 100vw;
+        font-size: 1.1rem;
+        color:#fff;
+        opacity: .5;
+        letter-spacing: -2px;
+    }
+    
+    .title{
+        height: 80vw;
+        background:#f0f0f0;
+        
+    }
+    
+    .gray{
+        margin-top: 8%;
+        width: 1100px;
+    }
+    
+    .gray .line{
+        background: #fff;
+        height: 120px;
+        line-height: 120px;
+    }
+    
+    .gray h3{
+    
+        font-size: 2.5rem;
+    }
+    
+    .blue{
+        background: #1e208a;
+        background-size: 25%;
+        position: relative;
+        height: 60vw;
+    }
+    
+    
+    .wi100 li{
+       position: absolute;
+       left: 40%;
+       opacity: 0; 
+       transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    
+    }
+    
+    .wi100 li a{
+        width: 100%;
+        height: 20px;
+    }
+    
+    .wi100 li a:hover{
+        text-decoration: underline !important;
+        
+    }
+    
+    .gray{
+        margin-top: 4vw;
+    }
+    
+    .gray button{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background: #fff;
+        border:solid 2px #333;
+        border-radius: 50%;
+    }
+    
+    .gray .flex{
+        justify-content: space-around;
+    }
+    
+    .cs_contain{
+        height:220px ;
+    }
+    
+    .cs{
+        background: #fff;
+        margin-top: 3%;
+        width: 65%;
+        text-transform: uppercase;
+        height: 250px;
+        position: relative;
+    }
+    
+    .gray .center{
+        flex-direction: column;
+        position: relative;
+        justify-content: flex-start;
+        gap: 20px;
+        margin-top: 50px;
+        z-index: 10;
+    }
+    
+    
+    .center li:first-child{
+        font-size: 1.5rem;
+        color: #1e208a;
+    }
+    
+    .center li:last-child{
+        position: absolute;
+     bottom: 20px;
+     left:70px;
+    
+    }
+    
+    .last_ul{
+        border-top: 0px solid gray;
+        padding-top: 20px;
+        padding-left: 2px;
+        line-height: 25px;
+       position: absolute;
+       left: 100%;
+       top: 0;
+       height: 230px;
+     width: 53.2%;
+     background-color: #fff;
+     flex-direction: column;
+    }
+    
+    .last_ul span{
+        margin-left: 15px;
+        color: #1e208a;
+    }
+    
+    .gray .Shipping{
+     flex-direction: column;
+     gap:30px;
+     justify-content: flex-start;
+     margin-top: 50px;
+    
+    }
+    
+    .Shipping li:first-child{
+        font-size: 1.5rem;
+        color:#1e208a
+    
+    }
+footer{
+    position: relative;
+}
+
+address{
+    color: gray;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 30%;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+}
+
+    .last_ul{
+        border-top: 0px solid gray;
+        padding-top: 20px;
+        padding-left: 2px;
+        line-height: 25px;
+       position: absolute;
+       left: 100%;
+       top: 0;
+       height: 230px;
+     width: 53.2%;
+     background-color: #fff;
+     flex-direction: column;
+    }
+    
+    
+    #map{
+        width: 65%;
+        height: 300px;
+        left: 17%;
+        bottom:-30px;
+        border: 1px solid #333;
+    }
+    @media  screen and (max-width:1090px) {
+        .blue{
+            height: 80vw;
+        }
+        .scroll{
+            display: none;
+        }
+        .many{
+            left: 0;
+            top: 100px;
+        }
+
+     .gray .line{
+   
+     }
+     .gray{
+        width: 1000px;
+     }
+    }
+
+    @media screen and (max-width:972px) {
+        .title{
+            height: 90vw;
+        }
+    }
+    @media screen and (max-width:929px) {
+        .blue h3{
+            font-size: 1.8rem;
+    }}
+
+    @media screen  and (max-width:870px) {
+        .title{
+            height: 100vw;
+        }
+    }
+    @media screen and (max-width:840px){
+        .gap{
+            margin-top: 0;
+        }
+        .blue{
+            height: 90vw ;
+        }
+        .gray{
+            width: 900px;
+        }
+    
+        .gap div{
+    height: 150px ;
+    line-height: 150px;
+    width: 200px;
+        }
+        footer{
+            height: 400px;
+        }
+
+.rain_bow h3{
+    margin: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+.many{
+    display: none;
+}
+    .taste{
+        margin: 0;
+        width: 100%;
+    }
+
+    .title{
+        height: 110vw;
+    }
+
+    }
+
+@media screen and (max-width:830px){
+    .rain_bow h3{
+        margin-top: 200px;
+    }
+    
+    .taste{
+        font-size: 1.6rem;
+    }
+    
+    .btn{
+        position: absolute;
+        left: 70px;
+        width: 300px;
+        bottom:-70px;
+        
+    }
+    .btn span:hover{
+        animation: none;
+    }
+    .gap{
+        margin: 0;
+        position: relative;
+        width: 50%;
+        margin: auto;
+        
+    }
+    .gap div{
+        max-width: 150px;
+        height: 150px;
+        line-height: 150px;
+        font-size: 1.3rem;
+
+    }
+    .gray{
+        width: 100%;
+        
+    }
+    .gray .line{
+        height: 200px;
+        position: relative;
+    }
+.wi100 li{
+    bottom: 10px;
+    left: 12%;
+    font-size: 1.7rem;
+}    
+}
+
+@media screen and (max-width:760px){
+    .title{
+        height: 160vw;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .rain_bow h3{
+        font-size: 1.5rem;
+        margin-top: 25%;
+        border:none;
+    }
+    .rain_bow h3 span{
+        font-size: 1.7rem;
+    }
+    .taste{
+        font-size: 1.5rem;
+    }
+    .product{
+        font-size: 1.5rem;
+        padding-top: 20px;
+    }
+    .blue{
+        height: 105vw;
+    }
+
+    footer{
+        height: 400px;
+    }
+    address{
+        bottom:10%;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:692px) {
+    .blue h3{
+     font-size: 1,2rem;
+    }
+}
+@media screen and (max-width:660px) {
+    .second{
+        height: 72vw;
+    }
+    .gap{
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .gap div{
+        width:300px;
+        max-width: 300px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 30px;
+    }
+    .gap div span{
+        display: inline-block !important;
+        margin-left: 30px;
+    }   
+
+}
+@media screen and (max-width:644px) {
+    .blue{
+        height: 140vw;
+    }
+}
+@media screen and (max-width:631px) {
+    .swiper{
+        width: 650px;
+        left: -30px;
+        height: 550px;
+    }
+    .btn{
+        gap: 10px;
+    }
+
+    .wi100 li{
+        font-size: 1.3rem;
+    }
+    .center li:last-child{
+        left: 1%;
+        bottom: -30px;
+    }
+}
+
+@media screen and (max-width:617px) {
+    .taste{
+        font-size: 1rem;
+    }
+
+    .swiper{
+        width: 550px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width:566px){
+    .rain_bow h3{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .product2{
+        font-size: 1.3rem;
+        display: none;
+    }
+
+    .swiper{
+        top: 70px;
+        left: -35px;
+    }
+    .title{
+        height: 169vw;
+    }
+}

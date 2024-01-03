@@ -1,0 +1,520 @@
+@media screen and (min-width:1440px) and (max-width:1520px){
+.header{
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+}
+h1{
+    line-height: 120px;
+    scale: .8;
+}
+
+
+nav{
+    flex-grow: 3;
+    font-weight: 100;
+}
+
+.navi{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navi li{
+    width: 112px;
+    text-align: center;
+   
+}
+
+.navi li a{
+    color: #1e208a;
+    font-size: 1.2rem;   
+}
+
+.yellow{
+    position: absolute;
+    top:122px;
+    background: rgba(30, 32, 138, .9);
+    width: 100%;
+    height: 230px;
+    left:0;
+}
+
+.yellow .po1{
+    margin-left: 31.3vw;
+    width: 98px;
+    
+}
+
+.yellow li:hover .po1{
+    display: block;
+}
+
+.yellow .po1:first-child{
+    margin-top: 1%;
+}
+
+.yellow .po1 a{
+    color: #E9EFF2;
+}
+
+.yellow.on{
+    display: block;
+} 
+
+.yellow  .po2{
+    margin-left: 39.2vw;
+}
+
+.yellow  .po3{
+margin-left:47vw;
+}
+
+.yellow  .po4{
+    margin-left: 54vw;
+}
+
+.yellow  .po5{
+    margin-left: 61.9vw;
+}
+}
+@media screen and (min-width:1390px) and (max-width:1439px) {
+    .header{
+    
+    
+    width: 100%;
+    }
+    .yellow .po1{
+        margin-left: 30.7vw;
+        
+    }
+   
+    .yellow  .po2{
+        margin-left: 38.8vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:46.5vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 54.5vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 62.3vw;
+    }
+
+}
+@media screen and (min-width:1320px) and (max-width:1389px) {
+    .header{
+        width: 100%;
+        }
+        .yellow .po1{
+            margin-left: 29.7vw;
+            
+        }
+       
+        .yellow  .po2{
+            margin-left: 38vw;
+        }
+        
+        .yellow  .po3{
+        margin-left:46vw;
+        }
+        
+        .yellow  .po4{
+            margin-left: 54.5vw;
+        }
+        
+        .yellow  .po5{
+            margin-left: 62.5vw;
+        }
+      
+}
+
+@media screen and (min-width:1260px) and (max-width:1319px) {
+    .header{
+        width: 100%;
+        }
+        .yellow .po1{
+            margin-left: 28.5vw;
+            
+        }
+       
+        .yellow  .po2{
+            margin-left: 37.3vw;
+        }
+        
+        .yellow  .po3{
+        margin-left:46vw;
+        }
+        
+        .yellow  .po4{
+            margin-left: 55vw;
+        }
+        
+        .yellow  .po5{
+            margin-left: 63.8vw;
+        }
+}
+
+@media screen and (min-width:1160px) and (max-width:1259px) {
+    .header{
+        width: 100%;
+        }
+        .yellow .po1{
+            margin-left: 26.5vw;
+            
+        }
+       
+        .yellow  .po2{
+            margin-left: 36vw;
+        }
+        
+        .yellow  .po3{
+        margin-left:45.5vw;
+        }
+        
+        .yellow  .po4{
+            margin-left: 55vw;
+        }
+        
+        .yellow  .po5{
+            margin-left: 64.4vw;
+        }
+}
+
+@media screen and (min-width:1090px) and (max-width:1159px) {
+    .header{
+        width: 100%;
+        }
+        .yellow .po1{
+            margin-left: 25.5vw;
+            
+        }
+       
+        .yellow  .po2{
+            margin-left: 35vw;
+        }
+        
+        .yellow  .po3{
+        margin-left:45.5vw;
+        }
+        
+        .yellow  .po4{
+            margin-left: 56vw;
+        }
+        
+        .yellow  .po5{
+            margin-left: 66vw;
+        }
+}
+
+@media screen and (min-width:1060px) and (max-width:1089px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+ 
+    .yellow .po1{
+        margin-left: 36vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 46.8vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:57vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 67.3vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 77.3vw;
+    }
+}
+
+@media screen and (min-width:1020px) and (max-width:1059px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+ 
+    .yellow .po1{
+        margin-left: 35.6vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 46vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:57.5vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 67.8vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 78.7vw;
+    }
+}
+
+@media screen and (min-width:990px) and (max-width:1019px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+ 
+    .yellow .po1{
+        margin-left: 35.6vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 46vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:57.5vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 68.4vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 79.5vw;
+    }
+}
+
+@media screen and (min-width:970px) and (max-width:989px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+ 
+    .yellow .po1{
+        margin-left: 35vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 46vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:58.3vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 69vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 80.4vw;
+    }
+}
+
+@media screen and (min-width:950px) and (max-width:969px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+ 
+    .yellow .po1{
+        margin-left: 35vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 46vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:58.3vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 70vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 81.3vw;
+    }
+}
+
+@media screen and (min-width:920px) and (max-width:949px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+ 
+    .yellow .po1{
+        margin-left: 34vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 46vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:58.3vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 70.3vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 82vw;
+    }
+}
+
+
+@media screen and (min-width:900px) and (max-width:919px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+    
+    .yellow .po1{
+        margin-left: 34vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 46vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:58.3vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 71vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 83vw;
+    }
+}
+
+@media screen and (min-width:880px) and (max-width:899px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+ 
+    .yellow .po1{
+        margin-left: 34vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 46vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:58.3vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 71vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 84vw;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:879px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+ 
+    .yellow .po1{
+        margin-left: 32.3vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 45.5vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:59vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 71.5vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 84.5vw;
+    }
+}
+
+@media screen and   (max-width:849px) {
+    .header{
+        width: 100%;
+    }
+    .glow{
+        display: none;
+    }
+    .ham{
+        display: inline-block;
+        scale: .5;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+    }
+ 
+    .yellow .po1{
+        margin-left: 32.3vw;    
+    }
+   
+    .yellow  .po2{
+        margin-left: 45.5vw;
+    }
+    
+    .yellow  .po3{
+    margin-left:59vw;
+    }
+    
+    .yellow  .po4{
+        margin-left: 73vw;
+    }
+    
+    .yellow  .po5{
+        margin-left: 86vw;
+    }
+    .navi {
+        display: none;
+    }
+  
+
+
+}
+
+
